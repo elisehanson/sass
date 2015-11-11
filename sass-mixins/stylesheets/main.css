@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,100italic,300italic,400);
+@font-face {
+  font-family: "DalaFloda-Medium-Web";
+  src: url("DalaFloda-Medium-Web.woff") format("woff"); }
+* {
+  box-sizing: border-box; }
+
+body {
+  display: table;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cf8725));
+  background-image: -webkit-linear-gradient(top, #ffffff, #cf8725);
+  background-image: -moz-linear-gradient(top, #ffffff, #cf8725);
+  background-image: -ms-linear-gradient(top, #ffffff, #cf8725);
+  background-image: -o-linear-gradient(top, #ffffff, #cf8725);
+  background-image: linear-gradient(top, #ffffff, #cf8725);
+  filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#ffffff', end-colourStr='#cf8725'); }
+
+.one {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#b39885));
+  background-image: -webkit-linear-gradient(top, #ffffff, #b39885);
+  background-image: -moz-linear-gradient(top, #ffffff, #b39885);
+  background-image: -ms-linear-gradient(top, #ffffff, #b39885);
+  background-image: -o-linear-gradient(top, #ffffff, #b39885);
+  background-image: linear-gradient(top, #ffffff, #b39885);
+  filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#ffffff', end-colourStr='#b39885'); }
+
+.two {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c8da14c));
+  background-image: -webkit-linear-gradient(top, #ffffff, #c8da14c);
+  background-image: -moz-linear-gradient(top, #ffffff, #c8da14c);
+  background-image: -ms-linear-gradient(top, #ffffff, #c8da14c);
+  background-image: -o-linear-gradient(top, #ffffff, #c8da14c);
+  background-image: linear-gradient(top, #ffffff, #c8da14c);
+  filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#ffffff', end-colourStr='#c8da14c'); }
+
+.three {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#d92844));
+  background-image: -webkit-linear-gradient(top, #ffffff, #d92844);
+  background-image: -moz-linear-gradient(top, #ffffff, #d92844);
+  background-image: -ms-linear-gradient(top, #ffffff, #d92844);
+  background-image: -o-linear-gradient(top, #ffffff, #d92844);
+  background-image: linear-gradient(top, #ffffff, #d92844);
+  filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#ffffff', end-colourStr='#d92844'); }
+
+.four {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eae6dd));
+  background-image: -webkit-linear-gradient(top, #ffffff, #eae6dd);
+  background-image: -moz-linear-gradient(top, #ffffff, #eae6dd);
+  background-image: -ms-linear-gradient(top, #ffffff, #eae6dd);
+  background-image: -o-linear-gradient(top, #ffffff, #eae6dd);
+  background-image: linear-gradient(top, #ffffff, #eae6dd);
+  filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#ffffff', end-colourStr='#eae6dd'); }
+
+.five {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#686367));
+  background-image: -webkit-linear-gradient(top, #ffffff, #686367);
+  background-image: -moz-linear-gradient(top, #ffffff, #686367);
+  background-image: -ms-linear-gradient(top, #ffffff, #686367);
+  background-image: -o-linear-gradient(top, #ffffff, #686367);
+  background-image: linear-gradient(top, #ffffff, #686367);
+  filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#ffffff', end-colourStr='#686367'); }
+
+.vertical-align {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100vh; }
+  .vertical-align .text {
+    font-size: 68px;
+    font-family: DalaFloda-Medium-Web;
+    color: #000;
+    font-weight: 400;
+    margin: 0 auto 30px;
+    text-align: center; }
+
+header {
+  font-family: helvetica;
+  text-transform: uppercase;
+  position: fixed;
+  font-size: 30px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 30px; }
+  header nav li {
+    color: #000000;
+    display: inline;
+    padding: 10px 40px; }
+  header nav a {
+    color: #000;
+    text-decoration: none; }
+    header nav a:hover {
+      text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */

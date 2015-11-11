@@ -1,0 +1,94 @@
+@import "bourbon/bourbon";
+@import url(https://fonts.googleapis.com/css?family=Lato:300,100italic,300italic,400);
+
+@font-face {
+  font-family: "DalaFloda-Medium-Web";
+  src: url("DalaFloda-Medium-Web.woff") format("woff");
+  }
+
+
+$start-colour: #ffffff;
+$end-colour: #f1f1f1;
+
+* {
+  box-sizing: border-box; }
+
+@mixin bg-gradient-t2b($start-colour, $end-colour) {
+    background-color: $start-colour;
+    background-image: -webkit-gradient(linear, left top, left bottom, from($start-colour), to($end-colour));
+    background-image: -webkit-linear-gradient(top, $start-colour, $end-colour);
+    background-image:    -moz-linear-gradient(top, $start-colour, $end-colour);
+    background-image:     -ms-linear-gradient(top, $start-colour, $end-colour);
+    background-image:      -o-linear-gradient(top, $start-colour, $end-colour);
+    background-image:         linear-gradient(top, $start-colour, $end-colour);
+    filter:            progid:DXImageTransform.Microsoft.gradient(start-colourStr='#{$start-colour}', end-colourStr='#{$end-colour}');
+}
+
+body {
+  display: table;
+  height: 100%;
+  width: 100%;
+  @include bg-gradient-t2b(#ffffff, #cf8725);
+}
+
+.one {
+  @include bg-gradient-t2b(#ffffff, #b39885);
+}
+
+.two {
+  @include bg-gradient-t2b(#ffffff, #c8da14c);
+}
+
+.three {
+  @include bg-gradient-t2b(#ffffff, #d92844);
+}
+
+.four {
+  @include bg-gradient-t2b(#ffffff, #eae6dd);
+}
+
+.five {
+  @include bg-gradient-t2b(#ffffff, #686367);
+}
+
+.vertical-align {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100vh; 
+  .text {
+    font-size: 68px;
+    font-family: DalaFloda-Medium-Web;
+    color: #000;
+    font-weight: 400;
+    margin: 0 auto 30px;
+    text-align: center; 
+  }
+}
+
+header {
+  font-family:helvetica;
+  text-transform:uppercase;
+  position: fixed;
+  font-size:30px;
+  height:40px;
+  width:100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+  padding-top:30px;
+    nav {
+      li { color:#000000;
+      display: inline;
+      padding: 10px 40px;
+      }
+        a  {
+        color:#000;
+        text-decoration:none;
+        &:hover {
+          text-decoration:underline;
+        }
+      }
+    }
+  }
+
+

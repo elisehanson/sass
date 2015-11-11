@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100italic,300italic);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/** colors **/
+.center {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; }
+
+header {
+  height: 75px;
+  width: 100%;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  font-style: italic;
+  padding: 20px 0px;
+  text-align: right; }
+
+.tabs-content div {
+  display: none;
+  margin: 0 auto; }
+
+section {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  section::after {
+    clear: both;
+    content: "";
+    display: table; }
+  section aside {
+    margin: 10px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-right: 0; }
+    section aside:last-child {
+      margin-right: 0; }
+  section article {
+    margin: 10px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-right: 0; }
+    section article:last-child {
+      margin-right: 0; }
+
+.info {
+  border: 1px black solid;
+  height: 160px;
+  text-align: center;
+  padding: 50px; }
+  .info:hover {
+    background-color: #fff;
+    transition: border-color 0.2s ease-in-out, background 0.2s ease-in-out, color 0.2s ease-in-out; }
+
+ol {
+  margin: 0px; }
+  ol li {
+    margin: 0px 0px 0px 0px; }
+  ol ul li {
+    margin: 10px 0;
+    font-style: italic; }
+
+img {
+  width: 90%;
+  padding: 20px; }
+
+body {
+  background: #fff; }
+
+.module {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin: 0 auto; }
+  .module:last-child {
+    margin-right: 0; }
+
+.tabs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  .tabs .tab {
+    flex-grow: 1; }
+
+.tabs-content .active-tab-content {
+  display: block; }
+
+#tab-block1 .tab {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Roboto', sans-serif; }
+  #tab-block1 .tab i {
+    display: block;
+    font-size: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px; }
+#tab-block1 .tab[rel="#home"] {
+  background: #ebebeb;
+  transition: background .25s linear; }
+  #tab-block1 .tab[rel="#home"]:hover {
+    background: #f8f8f8;
+    transition: background .25s linear; }
+#tab-block1 .tab[rel="#info"] {
+  background: #f1f1f1;
+  transition: background .25s linear; }
+  #tab-block1 .tab[rel="#info"]:hover {
+    background: #fefefe;
+    transition: background .25s linear; }
+#tab-block1 .tab[rel="#procedures"] {
+  background: #dee0df;
+  transition: background .25s linear; }
+  #tab-block1 .tab[rel="#procedures"]:hover {
+    background: #ebecec;
+    transition: background .25s linear; }
+#tab-block1 .tab[rel="#location"] {
+  background: #e6e2d9;
+  transition: background .25s linear; }
+  #tab-block1 .tab[rel="#location"]:hover {
+    background: #f0eee8;
+    transition: background .25s linear; }
+#tab-block1 .tab[rel="#faq"] {
+  background: #c3c3bb;
+  transition: background .25s linear; }
+  #tab-block1 .tab[rel="#faq"]:hover {
+    background: #cfcfc9;
+    transition: background .25s linear; }
+#tab-block1 .tabs-content {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0; }
+  #tab-block1 .tabs-content div {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 500px; }
+  #tab-block1 .tabs-content h1 {
+    margin-top: 0; }
+  #tab-block1 .tabs-content #home {
+    background: #ebebeb; }
+  #tab-block1 .tabs-content #info {
+    background: #f1f1f1; }
+  #tab-block1 .tabs-content #procedures {
+    background: #dee0df; }
+  #tab-block1 .tabs-content #location {
+    background: #e6e2d9; }
+  #tab-block1 .tabs-content #faq {
+    background: #c3c3bb; }
+
+/*# sourceMappingURL=style.css.map */
